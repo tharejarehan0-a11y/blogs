@@ -1,5 +1,8 @@
 import "./globals.css";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
 
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata = {
   title: "Create Next App",
@@ -8,8 +11,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="min-h-full flex flex-col">{children} </body>
+    <html lang="en" className={cn("font-sans", geist.variable)}>
+      <body className="min-h-full flex flex-col ">{children} 
+         </body>
     </html>
   );
 }

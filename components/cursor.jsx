@@ -4,46 +4,68 @@ import { motion, frame, useSpring } from "motion/react";
 import { useEffect, useRef } from "react";
 
 export default function Cursor() {
-    const ref = useRef(null)
-    const { x, y } = useFollowPointer(ref)
 
-    return <motion.div ref={ref} style={{ ...ball, x, y }} />
+    const ref = useRef(null)
+
+    const { x, y } = useFollowPointer()
+
+    return (
+        <motion.div
+            ref={ref}
+            style={{
+                ...ball,
+                x,
+                y
+            }}
+        />
+    )
 }
 
-const spring = { damping: 3, stiffness: 50, restDelta: 0.001 }
+function useFollowPointer() {
 
-function useFollowPointer(ref){
-    const x = useSpring(0);
-    const y = useSpring(0);
+    const x = useSpring(0)
+    const y = useSpring(0)
 
     useEffect(() => {
-    if (!ref.current) return
 
-    const handlePointerMove = ({ clientX, clientY }) => {
-        const element = ref.current
+        const handlePointerMove = ({ clientX, clientY }) => {
 
-        frame.read(() => {
-            x.set(clientX - element.offsetLeft - element.offsetWidth / 2)
-            y.set(clientY - element.offsetTop - element.offsetHeight / 2)
-        })
-    }
+            frame.read(() => {
 
-    window.addEventListener("pointermove", handlePointerMove)
+                x.set(clientX - 30)
+                y.set(clientY - 30)
 
-    return () => window.removeEventListener("pointermove", handlePointerMove)
-}, [])
+            })
+        }
 
-    return {x,y}
+        window.addEventListener("pointermove", handlePointerMove)
+
+        return () =>
+            window.removeEventListener("pointermove", handlePointerMove)
+
+    }, [])
+
+    return { x, y }
 }
 
 const ball = {
-    
+
+    position: "fixed",
+
+    top: 0,
+    left: 0,
+
     width: "60px",
     height: "60px",
-    padding: "15px",
-    border: "2px solid black",
-    backgroundColor: "red",
-    backgroundClip: "content-box",
+
     borderRadius: "50%",
+    border: "2px solid black",
+    padding:"15px",
+    backgroundClip:"Content-box",
+
+    backgroundColor: "red",
+
     pointerEvents: "none",
+
+    zIndex: 9999,
 }
