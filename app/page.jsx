@@ -2,7 +2,7 @@
 import Photobooth from "@/components/photoholder";
 import Texty from "@/components/texty";
 import Cursor from "@/components/cursor";
-import ArticleCard from "@/components/articlecard";
+
 import Card from '@/components/Card'
 export default function Home() {
   return (
@@ -39,24 +39,11 @@ export default function Home() {
       <Texty />
       <Texty />
     </section>
-    <div className="flex justify-center items-center m-20 gap-7 "> 
-
-    <section>
-      <ArticleCard color="bg-white" text="Social"/>
-    </section>
-    <section>
-      <ArticleCard color="bg-white" text="Travel" />
-    </section>
-    <section>
-      <ArticleCard color="bg-white" text="Life" /> 
-    </section>
-    <section>
-      <ArticleCard color="bg-white" text="Tech"/>
-    </section>
-    </div>
-    <div>
-      <Card />
-
+    <div className="flex justify-center items-center gap-2 flex-wrap">
+      <Card img="/pexels-gunnar-hoffmann-2154527493-34220116.jpg" Heading="Germany: Affordable Study Hub" discription="Germany is one of the Best countries to be in to complete your undergrad and postgrad " />
+      <Card img="/pexels-markus-winkler-1430818-4578665.jpg" Heading="Javascript: The Goated Language" discription="Javascript is the best language to start your coding journey with and is one the most vast languages"/>
+      <Card img="/pexels-bertellifotografia-16027824.jpg" Heading="AI: Plz Stop It" discription="The AI revolution is getting much much bigger but i dont like it at all"/>
+      <Card img="/simon-hurry-W2yPIFjOcjc-unsplash.jpg" Heading="GenX: The ones who gave nothing" discription="A generation that failed to do it's job and give the next generation an enviornment to live in and to sustain for the upcoming generations"/>
     </div>
     </div>
 
