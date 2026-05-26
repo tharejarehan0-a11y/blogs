@@ -151,3 +151,15 @@ body{
     @apply font-sans;
   }
 }
+
+.goto-end{
+  animation-name:end;
+  animation-duration:10s;
+  animation-iteration-count: 1;
+  border-radius:30px;
+}
+
+@keyframes end{
+  from{width:50px;}
+  to {width:100vw;}
+}
