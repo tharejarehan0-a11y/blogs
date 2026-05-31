@@ -2,8 +2,38 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
  
-export default function ThreeDCardDemo({img,Heading,discription,link}) {
+export default function ThreeDCardDemo({img,Heading,discription,link,button}) {
+  if (button=="1"){
   return (
+    <CardContainer className="inter-var">
+      <CardBody className=" relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl border  ">
+        <CardItem
+          translateZ="50"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
+        >
+          {Heading}
+        </CardItem>
+        <CardItem
+          as="p"
+          translateZ="60"
+          className="text-neutral-500 text-sm max-w-sm dark:text-neutral-300"
+        >
+          {discription}
+        </CardItem>
+        <CardItem translateZ="100" className="w-full flex space-x-0 justify-center items-center">
+          <img
+            src={img}
+            height="4000"
+            width="4000"
+            className="h-100 w-200 object-cover rounded-2xl group-hover/card:shadow-xl border-2 border-white box-border rounded-2xl bg-white p-5"
+            alt="thumbnail"
+          />
+        </CardItem>
+      </CardBody>
+    </CardContainer>
+  );}
+  else{
+    return(
     <CardContainer className="inter-var">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
@@ -42,6 +72,7 @@ export default function ThreeDCardDemo({img,Heading,discription,link}) {
         </div>
       </CardBody>
     </CardContainer>
-  );
+    );
+  }
 }
 
