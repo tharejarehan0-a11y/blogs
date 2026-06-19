@@ -1,7 +1,7 @@
 import Card from '@/components/Card'
 import Link from 'next/link'
 
-export default function AI(){
+export default function Generation(){
     return(
         <>
         <nav className="flex gap-20 font-mono font-thin list-none justify-center items-center mt-5 mb-5 text-white bg-black">
