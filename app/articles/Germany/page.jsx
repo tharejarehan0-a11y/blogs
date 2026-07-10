@@ -46,6 +46,7 @@ export default function Germany(){
                         <li className="list-item">Give a test such as JEE and get a rank if it is valid to get a admission     (confirm) its validity beforehand</li>
                     </ul>
                 </div>
+                Rest in progress
                 </div>
 
             </div>

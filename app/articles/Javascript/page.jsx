@@ -10,7 +10,7 @@ export default function javascript(){
            <li><Link href="/Contact">Contact</Link></li>
         </nav>
         <div className="flex justify-center items-center turnblack bg-black text-white">
-        <h1 className="text-3xl  mb-28 mt-9 font-article ">Germany: Affordable Study Hub</h1>
+        <h1 className="text-3xl  mb-28 mt-9 font-article ">Javascript: The goated language</h1>
         </div>
         <div className="bg-black goto-end h-full">
         <div className="w-full flex flex-wrap m-0 justify-center items-center gap-40" >
@@ -72,6 +72,26 @@ export default function javascript(){
                     <br />
                     <br />
                     These were the most famous ones and there are much more the package manager npm is the worlds largest package manager and has so many libraries that you can use js with npm i library this like a gift by god to a programmer 
+                </div>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                    <h1 className='text-4xl mb-5'>Learning Resources</h1>
+                    <h2 className="text-3xl mb-5">FreeCodeCamp</h2>
+                    One of the Best if you have to learn web development it also has certifications on its website that you can do and be a certified developer . It has a youtube channel which has tons of high quality videos that you can watch and learn from 
+                    <br />
+                    <br />
+                    <br />
+                    <h2 className="text-3xl mb-5">Chai aur Code</h2>
+                    this is the youtube channel that teaches both in hindi and english and also goes in depth of the topic that you will be learning it teaches you both practically and theoratically and gives you better understanding then other fellow developers
+                    <br />
+                    <br />
+                    <br />
+                    <h2 className="text-3xl mb-5">W3 Schools</h2>
+                    This is the one that will help you with referencing to the text and practically implimenting it and learning . It is best for people who wanna build and learn which one of the best techniques to learn 
+                    <br />
+                    <br />
+                    <br />
+                    <h2 className="text-3xl mb-5">MDN</h2>
+                    This is the Documentation that you will always look upto while learning about it. It is one of the bests and will give you with every piece of information that you need. It is the one that you need to lookout for the most.
                 </div>
             </div>
         </div>
