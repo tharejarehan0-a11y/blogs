@@ -18,20 +18,20 @@ export default function Albums() {
       <div className="flex justify-evenly items-center mt-40">
         <div className="h-100 w-50">
         <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <Photobooth Image="/shimla2.jpeg" rotation="30deg"/>
+        <Photobooth Image="/shimla3.jpeg" rotation="30deg"/>
         <h3 className="font-fancy mt-50 shadower text-6xl inline-flex border-2 border-black mb-20 rounded-2xl p-5 pl-5">Shimla</h3>
         </div>
         <div className="h-100 w-50">
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <Photobooth Image="/pic1.jpeg" rotation="30deg"/>
+        <Photobooth Image="/pic2.jpeg" rotation="30deg"/>
+        <Photobooth Image="/pic3.jpeg" rotation="30deg"/>
         <h3 className="font-fancy mt-50 shadower text-6xl inline-flex border-2 border-black mb-20 rounded-2xl p-5 pl-5">China</h3>
         </div>
         <div className="h-100 w-50">
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <Photobooth Image="/amritsar1.jpeg" rotation="30deg"/>
+        <Photobooth Image="/amritsar2.jpeg" rotation="30deg"/>
+        <Photobooth Image="/amritsar3.jpeg" rotation="30deg"/>
         <h3 className="font-fancy mt-50 shadower text-6xl inline-flex border-2 border-black mb-20 rounded-2xl p-5 pl-5">Amritsar</h3>
         </div>
 
