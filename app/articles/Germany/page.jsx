@@ -48,9 +48,52 @@ export default function Germany(){
                         <li className="list-item">Give a test such as JEE and get a rank if it is valid to get a admission     (confirm) its validity beforehand</li>
                     </ul>
                 </div>
-                Rest in progress
                 </div>
-
+                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                    <h1 className="text-4xl mb-5">
+                        Studienkolleg
+                    </h1>
+                    <p>
+                        if you are going to the path of a studienkolleg then you need to learn a few things before even giving the test for studinekolleg 
+                        <ul className='list-decimal mt-5 list-inside'>
+                        <li className='list-item'>German till B2</li>
+                        <li className='list-item'>75% or above in your 12th board in the subjects you are going to take admission in</li>
+                        <li className="list-item">Math and physics to their sample paper level and a lil above</li>
+                    </ul>
+                    after that you will be giving the test for the studienkolleg and after you clear that test you get admitted for the prepratory course and in that you need to study for one year and need to give the FSP test on the basis of which you get a university and then you can do your Undergrad
+                    </p>
+                </div>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                    <h1 className="text-4xl mb-5">
+                        Bachelors one year in your Country
+                    </h1>
+                    <p>
+                        To go with this path you need to get admission in a college in your country and this only implies if your country has a 12 year education system so u do one more year in your country and good cgpa in your country in the first year on the basis of which you apply to a german college and get admitted there
+                    </p>
+                </div>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                    <h1 className="text-4xl mb-5">
+                        Give a test such as JEE or SAT 
+                    </h1>
+                    <p>
+                        Some German universties accept such test as your admission critiria and you can be straight away admitted through the marks you get in that but it is quite hard and demanding as they usually ask for good enough marks which only toppers get 
+                    </p>
+                </div>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                    <h1 className="text-4xl mb-5">
+                        Benefits 
+                    </h1>
+                    <p>
+                        There are quite a lot of benefits of going into such a great country and studying there 
+                        <ul className='list-decimal mt-5 list-inside'>
+                        <li className='list-item'>European Country European Benefits</li>
+                        <li className='list-item'>International recoginition</li>
+                        <li className="list-item">Lesser Competition</li>
+                        <li className="list-item">Universities with rankings in top 100</li>
+                        <li className="list-item">Better Opportunties</li>
+                    </ul>
+                    </p>
+                </div>
             </div>
         </div>
         </div>

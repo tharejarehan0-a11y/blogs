@@ -9,7 +9,7 @@ export default function Home() {
     <div>
     <nav className="flex gap-20 font-mono font-thin list-none justify-center items-center mt-5 mb-15 ">
       <li><Link href="/">Home</Link></li>
-      <li><Link href="/blog">Blogs</Link></li>
+      <li><Link href="/albums">Albums</Link></li>
       <li><Link href="/Contact">Contact</Link></li>
     </nav>
     <Cursor />
