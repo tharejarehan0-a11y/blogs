@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Cursor from '@/components/cursor'
 import Photobooth from '@/components/photoholder'
+import "../globals.css";
 
 export default function Albums() {
   return (
@@ -15,23 +16,23 @@ export default function Albums() {
         <h1 className="text-6xl font-fancy mt-5">Albums</h1>
       </div>
       <div className="flex justify-evenly items-center mt-40">
-        <div>
+        <div className="h-100 w-50">
         <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
         <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
         <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
-        <h3 className="font-fancy flex justify-center items-baseline mt-50 text-6xl">Shimla</h3>
+        <h3 className="font-fancy mt-50 shadower text-6xl inline-flex border-2 border-black mb-20 rounded-2xl p-5 pl-5">Shimla</h3>
         </div>
-        <div>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="330deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="330deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="330deg"/>
-        <h3 className="font-fancy flex justify-center items-baseline mt-50 text-6xl">China</h3>
+        <div className="h-100 w-50">
+        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <h3 className="font-fancy mt-50 shadower text-6xl inline-flex border-2 border-black mb-20 rounded-2xl p-5 pl-5">China</h3>
         </div>
-        <div>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="20deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="20deg"/>
-        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="20deg"/>
-        <h3 className="font-fancy flex justify-center items-baseline mt-50 text-6xl">Amritsar</h3>
+        <div className="h-100 w-50">
+        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <Photobooth Image="/WhatsApp Image 2026-05-25 at 20.38.04.jpeg" rotation="30deg"/>
+        <h3 className="font-fancy mt-50 shadower text-6xl inline-flex border-2 border-black mb-20 rounded-2xl p-5 pl-5">Amritsar</h3>
         </div>
 
       </div>

@@ -174,3 +174,21 @@ body{
 .py-20{
   padding-block: calc(var(--spacing) * 1);
 }
+
+.shadower{
+  box-shadow: black 12px 12px 1px;
+}
+
+.shadower:hover{
+  background-color:black;
+  color:white;
+  box-shadow:rgb(64, 64, 55) 12px 12px 1px;
+  transition-duration:0.2s;
+  transition-property:var(--radius);
+  transition-timing-function:ease-out;
+  transition-behavior: var(--radius);
+}
+
+.shadower:active{
+  box-shadow:rgb(65,65,55) 4px 4px 1px;
+}
