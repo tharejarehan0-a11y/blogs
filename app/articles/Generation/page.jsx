@@ -1,9 +1,11 @@
 import Card from '@/components/Card'
 import Link from 'next/link'
+import Cursor from '@/components/cursor'
 
 export default function Generation(){
     return(
         <>
+        <Cursor />
         <nav className="flex gap-20 font-mono font-thin list-none justify-center items-center mt-5 mb-5 text-white bg-black">
            <li><Link href="/">Home</Link></li>
            <li><Link href="/blog">Blogs</Link></li>

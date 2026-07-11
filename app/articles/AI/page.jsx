@@ -1,9 +1,11 @@
 import Card from '@/components/Card'
 import Link from 'next/link'
+import Cursor from '@/components/cursor'
 
 export default function AI(){
     return(
         <>
+        <Cursor />
         <nav className="flex gap-20 font-mono font-thin list-none justify-center items-center mt-5 mb-5 text-white bg-black">
            <li><Link href="/">Home</Link></li>
            <li><Link href="/blog">Blogs</Link></li>
@@ -22,7 +24,7 @@ export default function AI(){
                  <div className='m-8 rounded-4xl p-16 border-8 border-white'>
                     <h1 className="text-4xl mb-5">The biggest Problem</h1>
                     <p>
-                        The biggest problem that using ai gives us is that we cannot really do anything on our own if get a little too dependant onto it and that stops innovation. Innovation has been the key difference between us humans and other animals living on this earth but innovation is js not possible with the excessive use of AI and huge dependence on it as it only uses the already present data to give a prediction and does not produce new data that contradicts the given data which is essential for development and innovation
+                        The biggest problem that using ai gives us is that we cannot really do anything on our own if we get a little too dependant onto it and that stops innovation. Innovation has been the key difference between us humans and other animals living on this earth but innovation is js not possible with the excessive use of AI and huge dependence on it as it only uses the already present data to give a prediction and does not produce new data that contradicts the given data which is essential for development and innovation
                     </p>
                 </div>
                 <div className='m-8 rounded-4xl p-16 border-8 border-white'>
