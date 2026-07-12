@@ -15,7 +15,7 @@ export default function Photobooth({ Image, rotation }) {
         transition={{duration:1}}
         whileHover={{scale:3}}
         >
-            <img src={Image} alt="image" height="300px" width="120px" className="border-2 border-black" />
+            <img src={Image} alt="image" height="300px" width="120px" className="border-2 border-black " />
         </motion.div>
         </>
     )
