@@ -85,6 +85,7 @@ export default function Germany(){
                     </h1>
                     <p>
                         There are quite a lot of benefits of going into such a great country and studying there 
+                    </p>
                         <ul className='list-decimal mt-5 list-inside'>
                         <li className='list-item'>European Country European Benefits</li>
                         <li className='list-item'>International recoginition</li>
@@ -92,7 +93,6 @@ export default function Germany(){
                         <li className="list-item">Universities with rankings in top 100</li>
                         <li className="list-item">Better Opportunties</li>
                     </ul>
-                    </p>
                 </div>
             </div>
         </div>
