@@ -186,9 +186,12 @@ body{
   transition-duration:0.2s;
   transition-property:var(--radius);
   transition-timing-function:ease-out;
-  transition-behavior: var(--radius);
 }
 
 .shadower:active{
   box-shadow:rgb(65,65,55) 4px 4px 1px;
+}
+
+.transition{
+  transition: cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s;
 }
