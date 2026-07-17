@@ -8,7 +8,7 @@ export default function Germany(){
         <Cursor />
         <nav className="flex gap-20 font-mono font-thin list-none justify-center items-center mt-5 mb-5 text-white bg-black">
            <li><Link href="/">Home</Link></li>
-           <li><Link href="/blog">Blogs</Link></li>
+           <li><Link href="/albums">Albums</Link></li>
            <li><Link href="/Contact">Contact</Link></li>
         </nav>
         <div className="flex justify-center items-center turnblack bg-black text-white">
@@ -53,7 +53,7 @@ export default function Germany(){
                     <h1 className="text-4xl mb-5">
                         Studienkolleg
                     </h1>
-                    <p>
+                    <div>
                         if you are going to the path of a studienkolleg then you need to learn a few things before even giving the test for studinekolleg 
                         <ul className='list-decimal mt-5 list-inside'>
                         <li className='list-item'>German till B2</li>
@@ -61,7 +61,7 @@ export default function Germany(){
                         <li className="list-item">Math and physics to their sample paper level and a lil above</li>
                     </ul>
                     after that you will be giving the test for the studienkolleg and after you clear that test you get admitted for the prepratory course and in that you need to study for one year and need to give the FSP test on the basis of which you get a university and then you can do your Undergrad
-                    </p>
+                    </div>
                 </div>
                 <div className='m-8 rounded-4xl p-16 border-8 border-white'>
                     <h1 className="text-4xl mb-5">

@@ -8,7 +8,7 @@ export default function Generation(){
         <Cursor />
         <nav className="flex gap-20 font-mono font-thin list-none justify-center items-center mt-5 mb-5 text-white bg-black">
            <li><Link href="/">Home</Link></li>
-           <li><Link href="/blog">Blogs</Link></li>
+           <li><Link href="/albums">Albums</Link></li>
            <li><Link href="/Contact">Contact</Link></li>
         </nav>
         <div className="flex justify-center items-center turnblack bg-black text-white">
