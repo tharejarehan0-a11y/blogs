@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@iconify-react/line-md": "^1.0.2",
+    "@iconify-react/selfhst": "^1.0.8",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.16.0",

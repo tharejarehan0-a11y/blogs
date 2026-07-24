@@ -195,3 +195,28 @@ body{
 .transition{
   transition: cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s;
 }
+
+.to-black{
+  background-color:black;
+  transition-duration: 0.1s;
+}
+
+.to-white{
+  background-color: white;
+  transition-duration: 0.1s;
+}
+
+@keyframes bgblackanimate {
+  from{height:0vh;} 
+  to{height:150vh;}
+}
+
+.white-to-black{
+  animation-name:bgblackanimate;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+.roundit{
+  border-radius:100px;
+}
