@@ -2,14 +2,12 @@
 import "../globals.css"
 import Link from "next/link"
 import Cursor from "@/components/cursor"
-import { number } from "motion"
 import { useEffect } from "react"
 import Image from "next/image"
-import InstagramIcon from '@iconify-react/line-md/instagram';
-import GithubTwotoneIcon from '@iconify-react/line-md/github-twotone';
-import SlackLightIcon from '@iconify-react/selfhst/slack-light';
+import { time } from "motion"
 
 export default function Contact(){
+  //function for the pixel block
     useEffect(()=>{
       const interval = setInterval(() => { 
         for(let i = 0; i<=54; i++){
@@ -17,10 +15,8 @@ export default function Contact(){
           all_blocks.push(i.toString());
           let random_blocks = []
           let number_random = (Math.floor(Math.random()*54)+1).toString();
-          console.log(number_random)
           random_blocks.push(number_random)
           let div = document.getElementById(`${number_random.toString()}`)
-          console.log(div.classList)
           if(i%2==0){
             let classes = div.classList
             if(classes.contains("to-white")){
@@ -45,6 +41,52 @@ export default function Contact(){
         }, 150);
       return ()=> clearInterval(interval);
        },[])
+
+    //function for the hover function
+    useEffect(()=>{
+
+      const insta = document.getElementById("img1");
+      const github = document.getElementById("img2");
+      const slack = document.getElementById("img3");
+  
+      const instablock1 = document.getElementById("position1");
+      const instablock2 = document.getElementById("positionop1");
+  
+      const githubblock1 = document.getElementById("position2");
+      const githubblock2 = document.getElementById("positionop2");
+  
+      const slackblock1 = document.getElementById("position3");
+      const slackblock2 = document.getElementById("positionop3");
+  
+      function hover(img,block1,block2) {
+        img.addEventListener("mouseenter",()=>{
+          block1.classList.remove("position")
+          block1.classList.add("position-alt")
+
+          block2.classList.remove("position-opposite")
+          block2.classList.add("position-opposite-alt")
+        })
+        img.addEventListener("mouseleave",()=>{
+          block1.classList.remove("position-alt")
+          block1.classList.add("position")
+
+          block2.classList.remove("position-opposite-alt")
+          block2.classList.add("position-opposite")
+        })
+      }
+      hover(insta,instablock1,instablock2);
+      hover(github,githubblock1,githubblock2);
+      hover(slack,slackblock1,slackblock2);
+
+      const timeout = setTimeout(()=>{
+        let images = document.getElementsByClassName("appear")
+        let array = Array.from(images)
+        array.map((e)=>{
+          e.classList.remove("opacity-0")
+        })
+      },2000)
+      return ()=>clearTimeout(timeout)
+    },[])
 
     return(
         <>
@@ -111,102 +153,33 @@ export default function Contact(){
         <div className="bg-white border-black border-2 w-20 h-20"id="54"></div>
 
       </div>
-      <div className="bg-black text-white white-to-black" style={{height:"450vh"}}>
-        <div className="flex-col flex justify-center items-center p-20 gap-20">
-        <div className="flex justify-center items-center gap-15">
-
-          {
-            // This is a block of contact 
-          }
-            <div className="block w-200 custom-insta-bg pt-15 pb-15 rounded-2xl">
-            <div className="flex-col flex justify-center items-center pr-15 pl-15">
-              <div className="text-8xl text-black font-fancy">
-                Instagram
-              </div>
-          <div>
-            <Image src="/pic3.jpeg" height="500" width="500" alt="img" loading="eager" className="rounded-2xl" />
+      <div className="bg-black flex-col flex justify-start items-center text-white white-to-black" style={{height:"100vh"}}>
+        <div className="block w-500">
+        <div className="flex bg-white justify-center items-center text-8xl font-fancy pt-9 pb-9 text-black appear opacity-0">
+          Hover below to know
           </div>
-            </div>
-              <div className="flex justify-center items-center ml-20">
-              <div className="text-black flex  gap-5 justify-center items-center p-20 h-50 w-120">
-                <div className="font-fancy text-8xl">
-                      <div>
-                       @rehan_thareja
-                      </div>
-                </div>
-              </div>
-              <div className="ml-20 mr-5 flex justify-center items-center text-black">
-                <div>
-                <InstagramIcon height="8em"/>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
-          </div>
+        </div>
+        <div className="flex jusify-center items-center gap-25">
+        <div className="mt-20 appear opacity-0">
+          <Image src="/pic1.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img1"/>
+          <div className="bg-white rounded-3xl w-70 h-100 position" id="position1"></div>
+          <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop1"></div>
+        </div>
+        <div className="mt-20 appear opacity-0">
+          <Image src="/WhatsApp Image 2026-05-25 at 03.26.15.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img2"/>
+          <div className="bg-white rounded-3xl w-70 h-100 position" id="position2"></div>
+          <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop2"></div>
+        </div>
+        <div className="mt-20 appear opacity-0">
+          <Image src="/amritsar1.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img3"/>
+          <div className="bg-white rounded-3xl w-70 h-100 position" id="position3"></div>
+          <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop3"></div>
+        </div>
 
-
-
-          {
-            // This is a block of contact 
-          }
-            <div className="block w-200 bg-white pt-15 pb-15 rounded-2xl">
-            <div className="flex-col flex justify-center items-center pr-15 pl-15">
-              <div className="text-8xl text-black font-fancy">
-                Instagram
-              </div>
-          <div>
-            <Image src="/pic3.jpeg" height="500" width="500" alt="img" loading="eager" className="rounded-2xl" />
-          </div>
-            </div>
-              <div className="flex justify-center items-center ml-20">
-              <div className="text-black flex  gap-5 justify-center items-center p-20 h-50 w-120">
-                <div className="font-fancy text-8xl">
-                      <div>
-                       @rehan_thareja
-                      </div>
-                </div>
-              </div>
-              <div className="ml-20 mr-5 flex justify-center items-center text-black">
-                <div>
-                <InstagramIcon height="8em"/>
-                </div>
-              </div>
-              </div>
-            </div>
-
-
-
-          {
-            // This is a block of contact 
-          }
-            <div className="block w-200 bg-white pt-15 pb-15 rounded-2xl">
-            <div className="flex-col flex justify-center items-center pr-15 pl-15">
-              <div className="text-8xl text-black font-fancy">
-                Instagram
-              </div>
-          <div>
-            <Image src="/pic3.jpeg" height="500" width="500" alt="img" loading="eager" className="rounded-2xl" />
-          </div>
-            </div>
-              <div className="flex justify-center items-center ml-20">
-              <div className="text-black flex  gap-5 justify-center items-center p-20 h-50 w-120">
-                <div className="font-fancy text-8xl">
-                      <div>
-                       @rehan_thareja
-                      </div>
-                </div>
-              </div>
-              <div className="ml-20 mr-5 flex justify-center items-center text-black">
-                <div>
-                <InstagramIcon height="8em"/>
-                </div>
-              </div>
-              </div>
-            </div>
-            
-
-          </div>
+        </div>
+        <div className="block w-500 h-50 bg-white mt-20">
+        </div>
+     </div>
     </>
     )
 }

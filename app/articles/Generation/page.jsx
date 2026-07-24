@@ -21,13 +21,13 @@ export default function Generation(){
         </div>
         <div className="text-white text-xl flex justify-center items-center p-16 font-article">
             <div>
-             <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+             <div className='m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
             <h1 className="text-4xl mb-5">This generation literally gave nothing</h1>
             <p>
                 I am not at all kidding this generation literally gave nothing to the generation ahead how are they even supposed to live my lord please stop these genX people they Not at all care what the upcoming generation will face they only care about the fact that they and their children are getting everything and if they are not they will get onto the streets as a society 80% of the genX world has failed to work together and now are struggling with it
             </p>
             </div>
-            <div className="m-8 rounded-4xl p-16 border-8 border-white">
+            <div className="m-8 rounded-4xl p-16 border-8 border-white bg-white text-black">
                 <h1 className='text-4xl mb-5'>
                     Land | Water | Air
                 </h1>
@@ -35,7 +35,7 @@ export default function Generation(){
                     They literally took all of this away from us the Land the water and the air what else do u need to survive these are all the basic comodities you need to survive . They were so selfish that they never thought of the world and only thought of themselves and had a conception in their minds that this is only their water , their land and their air but as time passed they were shown the mirror by nature itself and now we live in a world where we cannot breathe properly , the world where there is water shortage , the world where the land is full of litter and they still say us they have given us a lot only 10% of the total population has genuinely given smth to the next generation otherwise the only thing they have give to us really is geopolitics and religions
                 </p>
             </div>
-            <div className="m-8 rounded-4xl p-16 border-8 border-white">
+            <div className="m-8 rounded-4xl p-16 border-8 border-white bg-white text-black">
                 <h1 className="text-4xl mb-5">
                    Education
                 </h1>

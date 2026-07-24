@@ -21,12 +21,12 @@ export default function javascript(){
         </div>
         <div className="text-white text-xl flex justify-center items-center p-16 font-article">
             <div>
-                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
 
                     <h1 className="text-4xl mb-5">Overview</h1>
                     Javascript is one of the most vast languages i have ever learned . It has so many frameworks to learn the same thing in it and each framework has its own advantages . It gives developers so many options to choose from . If you are starting to learn to code Javascript can provide you the foundations from where you can have many routes to choose from and it is one of the most demanded languages in the market. In all it is the best language to start your journey with 
                 </div>
-                <div className=' m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className=' m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
                     <h1 className="text-4xl mb-5">The options Javascript gives you</h1>
                     <h2 className="text-3xl mb-5">Web Development</h2>
                     If you are looking for a career in the web Javascript is a must for you . It is the one that gives the website the superpower to interact with the user and the ease of management of data to the developer itself without it web development could have been worse than hell. It is the basic building block of web . It gives you the power to control both the frontend and backend only with one language and gives you so many frameworks to choose from that you will be stunned by how vast the language itself is 
@@ -46,7 +46,7 @@ export default function javascript(){
                     <h2 className="text-3xl mb-5">Game Development</h2>
                     If you love games you are again in the right place. This is the beauty of this language you can literally do anything with this language there are so many libraries that help you with different types of things that allow you to do different types of things that will make you fall in love with this language and even the learning curve of this language is not that bad once you understand the async part of this language and the api and backend then you are good to go with this 
                 </div>
-                <div className="m-8 rounded-4xl p-16 border-8 border-white">
+                <div className="m-8 rounded-4xl p-16 border-8 border-white bg-white text-black">
                     <h1 className="text-4xl mb-5">Frameworks</h1>
                     We will discuss about some famous frameworks and their usecase here so that u can choose your path well 
                     <br />
@@ -75,7 +75,7 @@ export default function javascript(){
                     <br />
                     These were the most famous ones and there are much more the package manager npm is the worlds largest package manager and has so many libraries that you can use js with npm i library this like a gift by god to a programmer 
                 </div>
-                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
                     <h1 className='text-4xl mb-5'>Learning Resources</h1>
                     <h2 className="text-3xl mb-5">FreeCodeCamp</h2>
                     One of the Best if you have to learn web development it also has certifications on its website that you can do and be a certified developer . It has a youtube channel which has tons of high quality videos that you can watch and learn from 

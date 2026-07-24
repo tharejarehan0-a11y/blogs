@@ -208,12 +208,28 @@ body{
 
 @keyframes bgblackanimate {
   from{height:0vh;} 
-  to{height:450vh;}
+  to{height:100vh;}
+}
+@keyframes rotate{
+  from{transform: rotate(0deg); opacity:0;}
+  to{transform: rotate(20deg); opacity: 1;}
+}
+@keyframes anti-rotate {
+  from{transform: rotate(0deg); opacity: 0;}
+  to{transform: rotate(-10deg); opacity: 1;}
+}
+@keyframes rotateback {
+  from{transform: rotate(20deg); opacity: 1;}
+  to{transform: rotate(0deg); opacity: 0;}
+}
+@keyframes anti-rotateback {
+  from{transform:rotate(-10deg); opacity: 1;}
+  to{transform: rotate(0deg); opacity: 0;}
 }
 
 .white-to-black{
   animation-name:bgblackanimate;
-  animation-duration: 5s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
 }
 
@@ -223,4 +239,65 @@ body{
 
 .custom-insta-bg{
   background:linear-gradient(20,orange,purple);
+}
+
+.position{
+  position: absolute;
+  top:550;
+  z-index: 1;
+  transform: rotate(20deg);
+  opacity:0;
+  margin-left:10px;
+  animation: rotateback 0.2s;
+}
+
+.position-alt{
+  position: absolute;
+  top:550;
+  z-index: 1;
+  transform: rotate(20deg);
+  opacity: 1;
+  margin-left:10px;
+  animation-name: rotate;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+}
+
+.position-opposite{
+  position: absolute;
+  top:550;
+  z-index:0;
+  transform: rotate(-10deg);
+  opacity:0;
+  margin-left:10px;
+  animation: anti-rotateback 0.2s ;
+}
+
+.position-opposite-alt{
+  position: absolute;
+  top:550;
+  z-index:0;
+  transform: rotate(-10deg);
+  opacity:1;
+  margin-left:10px;
+  animation-name: anti-rotate;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+}
+
+.zimg{
+  z-index: 2;
+  width:auto;
+  height:auto;
+}
+
+@keyframes comeup{
+  from{opacity: 0; position: relative; top:50;}
+  to{opacity: 1; position: relative; top:0;}
+}
+
+.appear{
+  animation: comeup 3s 1;
+  transition:0.5s;
+  animation-delay: 1s;
 }

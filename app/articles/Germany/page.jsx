@@ -21,13 +21,13 @@ export default function Germany(){
         </div>
         <div className="text-white text-xl flex justify-center items-center p-16 font-article">
             <div>
-                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
 
                     <h1 className="text-4xl mb-5">Overview</h1>
                     This is litterally the most under rated option a student can look upto . It has no tution fees moreover the quality of education is one of the best in the world. It is the one of the bests in engineering and medical. There are some top tier schools in germany such as RWTH Aachen , TU     Universties who are ranked high in the QS rankings and are easier to get in compared to the     universties in the other countries. Germany ranks among the global leaders in medical education, with 43 public universities offering medical courses and 32 institutions appearing in the QS     World University Rankings 2026.
 
                 </div>
-                <div className=' m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className=' m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
 
                 <h1 className='text-4xl mt-5 mb-5'>Requirements</h1>
                 <h2 className="text-3xl mt-3 mb-3 "> Undergrad </h2>
@@ -49,7 +49,7 @@ export default function Germany(){
                     </ul>
                 </div>
                 </div>
-                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
                     <h1 className="text-4xl mb-5">
                         Studienkolleg
                     </h1>
@@ -63,7 +63,7 @@ export default function Germany(){
                     after that you will be giving the test for the studienkolleg and after you clear that test you get admitted for the prepratory course and in that you need to study for one year and need to give the FSP test on the basis of which you get a university and then you can do your Undergrad
                     </div>
                 </div>
-                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
                     <h1 className="text-4xl mb-5">
                         Bachelors one year in your Country
                     </h1>
@@ -71,7 +71,7 @@ export default function Germany(){
                         To go with this path you need to get admission in a college in your country and this only implies if your country has a 12 year education system so u do one more year in your country and good cgpa in your country in the first year on the basis of which you apply to a german college and get admitted there
                     </p>
                 </div>
-                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white text-black bg-white'>
                     <h1 className="text-4xl mb-5">
                         Give a test such as JEE or SAT 
                     </h1>
@@ -79,7 +79,7 @@ export default function Germany(){
                         Some German universties accept such test as your admission critiria and you can be straight away admitted through the marks you get in that but it is quite hard and demanding as they usually ask for good enough marks which only toppers get 
                     </p>
                 </div>
-                <div className='m-8 rounded-4xl p-16 border-8 border-white'>
+                <div className='m-8 rounded-4xl p-16 border-8 border-white text-black bg-white'>
                     <h1 className="text-4xl mb-5">
                         Benefits 
                     </h1>
