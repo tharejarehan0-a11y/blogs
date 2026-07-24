@@ -111,68 +111,102 @@ export default function Contact(){
         <div className="bg-white border-black border-2 w-20 h-20"id="54"></div>
 
       </div>
-      <div className="bg-black text-white white-to-black" style={{height:"150vh"}}>
+      <div className="bg-black text-white white-to-black" style={{height:"450vh"}}>
         <div className="flex-col flex justify-center items-center p-20 gap-20">
+        <div className="flex justify-center items-center gap-15">
+
           {
-          // This is a block of contact 
+            // This is a block of contact 
           }
-            <div className="block w-300">
-              <div className="flex justify-center">
-              <div className="text-white flex  gap-5 justify-center items-center p-20 h-50 w-120">
+            <div className="block w-200 custom-insta-bg pt-15 pb-15 rounded-2xl">
+            <div className="flex-col flex justify-center items-center pr-15 pl-15">
+              <div className="text-8xl text-black font-fancy">
+                Instagram
+              </div>
+          <div>
+            <Image src="/pic3.jpeg" height="500" width="500" alt="img" loading="eager" className="rounded-2xl" />
+          </div>
+            </div>
+              <div className="flex justify-center items-center ml-20">
+              <div className="text-black flex  gap-5 justify-center items-center p-20 h-50 w-120">
                 <div className="font-fancy text-8xl">
                       <div>
                        @rehan_thareja
                       </div>
                 </div>
               </div>
-              <div className="ml-40 mr-5 flex justify-center items-center">
+              <div className="ml-20 mr-5 flex justify-center items-center text-black">
                 <div>
-                <InstagramIcon height="8em" />
+                <InstagramIcon height="8em"/>
                 </div>
               </div>
               </div>
             </div>
-            {
-          // This is a block of contact 
+          </div>
+          </div>
+
+
+
+          {
+            // This is a block of contact 
           }
-            <div className="block w-500">
-              <div className="flex justify-center">
-              <div className="text-white flex  gap-5 justify-center items-center p-20 h-50 w-140">
-                <div className="font-fancy text-7xl">
-                      <div className="flex">
-                       Rehan Thareja
-                      </div>
-                </div>
+            <div className="block w-200 bg-white pt-15 pb-15 rounded-2xl">
+            <div className="flex-col flex justify-center items-center pr-15 pl-15">
+              <div className="text-8xl text-black font-fancy">
+                Instagram
               </div>
-              <div className="ml-20 mr-5 flex justify-center items-center">
-                <div>
-                <SlackLightIcon height="8em" />
-                </div>
-              </div>
-              </div>
+          <div>
+            <Image src="/pic3.jpeg" height="500" width="500" alt="img" loading="eager" className="rounded-2xl" />
+          </div>
             </div>
-            {
-          // This is a block of contact 
-          }
-            <div className="block w-300">
-              <div className="flex justify-center">
-              <div className="text-white flex  gap-5 justify-center items-center p-20 h-50 w-160">
-                <div className="font-fancy text-6xl">
+              <div className="flex justify-center items-center ml-20">
+              <div className="text-black flex  gap-5 justify-center items-center p-20 h-50 w-120">
+                <div className="font-fancy text-8xl">
                       <div>
-                       tharejarehan0-a11y
+                       @rehan_thareja
                       </div>
                 </div>
               </div>
-              <div className="ml-10 mr-5 flex justify-center items-center">
+              <div className="ml-20 mr-5 flex justify-center items-center text-black">
                 <div>
-                <GithubTwotoneIcon height="8em" />
+                <InstagramIcon height="8em"/>
                 </div>
               </div>
               </div>
             </div>
-     
-        </div>
-      </div>
+
+
+
+          {
+            // This is a block of contact 
+          }
+            <div className="block w-200 bg-white pt-15 pb-15 rounded-2xl">
+            <div className="flex-col flex justify-center items-center pr-15 pl-15">
+              <div className="text-8xl text-black font-fancy">
+                Instagram
+              </div>
+          <div>
+            <Image src="/pic3.jpeg" height="500" width="500" alt="img" loading="eager" className="rounded-2xl" />
+          </div>
+            </div>
+              <div className="flex justify-center items-center ml-20">
+              <div className="text-black flex  gap-5 justify-center items-center p-20 h-50 w-120">
+                <div className="font-fancy text-8xl">
+                      <div>
+                       @rehan_thareja
+                      </div>
+                </div>
+              </div>
+              <div className="ml-20 mr-5 flex justify-center items-center text-black">
+                <div>
+                <InstagramIcon height="8em"/>
+                </div>
+              </div>
+              </div>
+            </div>
+            
+
+          </div>
     </>
     )
 }

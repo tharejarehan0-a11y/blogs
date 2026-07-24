@@ -208,7 +208,7 @@ body{
 
 @keyframes bgblackanimate {
   from{height:0vh;} 
-  to{height:150vh;}
+  to{height:450vh;}
 }
 
 .white-to-black{
@@ -219,4 +219,8 @@ body{
 
 .roundit{
   border-radius:100px;
+}
+
+.custom-insta-bg{
+  background:linear-gradient(20,orange,purple);
 }
