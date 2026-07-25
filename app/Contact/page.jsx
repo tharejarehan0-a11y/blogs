@@ -155,7 +155,7 @@ export default function Contact(){
       </div>
       <div className="bg-black flex-col flex justify-start items-center text-white white-to-black" style={{height:"100vh"}}>
         <div className="block w-500">
-        <div className="flex bg-white justify-center items-center text-8xl font-fancy pt-9 pb-9 text-black appear opacity-0">
+        <div className="flex justify-center items-center text-8xl hover-text pt-9 pb-9 appear opacity-0">
           Hover below to know
           </div>
         </div>
@@ -176,8 +176,6 @@ export default function Contact(){
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop3"></div>
         </div>
 
-        </div>
-        <div className="block w-500 h-50 bg-white mt-20">
         </div>
      </div>
     </>
