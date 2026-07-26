@@ -232,7 +232,7 @@ export default function Contact(){
         <div className="bg-white border-black border-2 w-20 h-20"id="54"></div>
 
       </div>
-      <div className="bg-black flex-col flex justify-start items-center text-white white-to-black" style={{height:"100vh"}}>
+      <div className="bg-black flex-col flex justify-start items-center text-white white-to-black" style={{height:"300vh"}}>
         <div className="block w-500">
         <div className="flex justify-center items-center text-8xl hover-text pt-9 pb-9 appear opacity-0">
           Hover below to know
