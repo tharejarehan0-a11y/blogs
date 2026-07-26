@@ -4,6 +4,25 @@ import Texty from "@/components/texty";
 import Cursor from "@/components/cursor";
 import Link from "next/link";
 import Card from '@/components/Card'
+
+import Script from "next/script";
+
+<Script
+  id="person-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Rehan Thareja",
+      url: "https://rehanthareja.vercel.app",
+      sameAs: [
+        "https://github.com/tharejarehan0-a11y"
+      ],
+    }),
+  }}
+/>
+
 export default function Home() {
   return (
     <div>
