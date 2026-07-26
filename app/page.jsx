@@ -42,7 +42,7 @@ export default function Home() {
       <Card img="/pexels-gunnar-hoffmann-2154527493-34220116.jpg" Heading="Germany: Affordable Study Hub" discription="Germany is one of the Best countries to be in to complete your undergrad and postgrad " link="/articles/Germany"/>
       <Card img="/pexels-markus-winkler-1430818-4578665.jpg" Heading="Javascript: The Goated Language" discription="Javascript is the best language to start your coding journey with and is one the most vast languages" link="/articles/Javascript"/>
       <Card img="/pexels-bertellifotografia-16027824.jpg" Heading="AI: Plz Stop It" discription="The AI revolution is getting much much bigger but i dont like it at all" link="/articles/AI"/>
-      <Card img="/simon-hurry-W2yPIFjOcjc-unsplash.jpg" Heading="GenX: The ones who gave nothing" discription="A generation that failed to do it's job and give the next generation an enviornment to live in and to sustain for the upcoming generations" link="/articles/Generation"/>
+      <Card img="/simon-hurry-W2yPIFjOcjc-unsplash.jpg" Heading="GenY: The ones who gave nothing" discription="A generation that failed to do it's job and give the next generation an enviornment to live in and to sustain for the upcoming generations" link="/articles/Generation"/>
     </div>
     </div>
 

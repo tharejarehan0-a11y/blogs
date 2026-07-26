@@ -37,7 +37,7 @@ export default function Amritsar(){
                 <Image src="/amritsar2.jpeg" alt="" height="400" width="450" className='rounded-full border-20 border-black '/>
             </div>
             <div onMouseEnter={()=>{sethovered3(true)}} onMouseLeave={()=>{sethovered3(false)}} className={hovered3 ? "flex justify-start items-center p-20 border-black border-10 transition" : "flex justify-start items-center p-20 bg-black border-10 border-black text-white transition"}>
-                <Image src="/amritsar3.jpeg" alt="" height="800" width="850" className="rounded-full border-20 border-black" />
+                <Image src="/amritsar3.jpeg" alt="" height="400" width="450" className="rounded-full border-20 border-black" />
                 <p className='font-fancy text-8xl pl-15 text-left'>
                     OOOO The Train Wohooo !!!
                 </p>

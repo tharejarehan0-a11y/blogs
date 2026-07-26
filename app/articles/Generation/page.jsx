@@ -12,7 +12,7 @@ export default function Generation(){
            <li><Link href="/Contact">Contact</Link></li>
         </nav>
         <div className="flex justify-center items-center turnblack bg-black text-white">
-        <h1 className="text-3xl  mb-28 mt-9 font-article ">Germany: Affordable Study Hub</h1>
+        <h1 className="text-3xl  mb-28 mt-9 font-article ">GenY: The Generation who gave us nothing</h1>
         </div>
         <div className="bg-black goto-end h-full">
         <div className="w-full flex flex-wrap m-0 justify-center items-center gap-40" >
@@ -24,7 +24,7 @@ export default function Generation(){
              <div className='m-8 rounded-4xl p-16 border-8 border-white bg-white text-black'>
             <h1 className="text-4xl mb-5">This generation literally gave nothing</h1>
             <p>
-                I am not at all kidding this generation literally gave nothing to the generation ahead how are they even supposed to live my lord please stop these genX people they Not at all care what the upcoming generation will face they only care about the fact that they and their children are getting everything and if they are not they will get onto the streets as a society 80% of the genX world has failed to work together and now are struggling with it
+                I am not at all kidding this generation literally gave nothing to the generation ahead how are they even supposed to live my lord please stop these genY people they Not at all care what the upcoming generation will face they only care about the fact that they and their children are getting everything and if they are not they will get onto the streets as a society 80% of the genY world has failed to work together and now are struggling with it
             </p>
             </div>
             <div className="m-8 rounded-4xl p-16 border-8 border-white bg-white text-black">

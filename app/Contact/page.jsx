@@ -5,6 +5,7 @@ import Cursor from "@/components/cursor"
 import { useEffect } from "react"
 import Image from "next/image"
 import { time } from "motion"
+import javascript from "../articles/Javascript/page"
 
 export default function Contact(){
   //function for the pixel block
@@ -57,6 +58,14 @@ export default function Contact(){
   
       const slackblock1 = document.getElementById("position3");
       const slackblock2 = document.getElementById("positionop3");
+
+      const instatext = document.getElementById("instatext1");
+      const githubtext = document.getElementById("githubtext1");
+      const slacktext = document.getElementById("slacktext1");
+
+      const instainfo = document.getElementById("instatext2");
+      const githubinfo = document.getElementById("githubtext2");
+      const slackinfo = document.getElementById("slacktext2");
   
       function hover(img,block1,block2) {
         img.addEventListener("mouseenter",()=>{
@@ -74,9 +83,79 @@ export default function Contact(){
           block2.classList.add("position-opposite")
         })
       }
+
+      function hide(obj){
+        obj.classList.add("opacity-0")
+      }
+
+      function show(obj){
+        obj.classList.remove("opacity-0")
+      }
+
+      function know(img1,text1,text2,img2,block3,block4,text3,text4,img3,block5,block6,text5,text6){
+        img1.addEventListener("mouseenter",()=>{
+          hide(img2);
+          hide(img3);
+          hide(block3);
+          hide(block4);
+          hide(block5);
+          hide(block6);
+          hide(text3);
+          hide(text4);
+          hide(text5);
+          hide(text6);
+          show(text2);
+        })
+        text1.addEventListener("mouseenter",()=>{
+          hide(img2);
+          hide(img3);
+          hide(block3);
+          hide(block4);
+          hide(block5);
+          hide(block6);
+          hide(text3);
+          hide(text4);
+          hide(text5);
+          hide(text6);
+          show(text2);
+        })
+        img1.addEventListener("mouseleave",()=>{
+          show(img2);
+          show(img3);
+          show(block3);
+          show(block4);
+          show(block5);
+          show(block6);
+          show(text3);
+          hide(text4);
+          show(text5);
+          hide(text6);
+          hide(text2);
+        })
+        text1.addEventListener("mouseleave",()=>{
+          show(img2);
+          show(img3);
+          show(block3);
+          show(block4);
+          show(block5);
+          show(block6);
+          show(text3);
+          hide(text4);
+          show(text5);
+          hide(text6);
+          hide(text2);
+        })
+      }
       hover(insta,instablock1,instablock2);
       hover(github,githubblock1,githubblock2);
       hover(slack,slackblock1,slackblock2);
+      hover(instatext,instablock1,instablock2);
+      hover(githubtext,githubblock1,githubblock2);
+      hover(slacktext,slackblock1,slackblock2);
+
+      know(insta,instatext,instainfo,github,githubblock1,githubblock2,githubtext,githubinfo,slack,slackblock1,slackblock2,slacktext,slackinfo)
+      know(github,githubtext,githubinfo,insta,instablock1,instablock2,instatext,instainfo,slack,slackblock1,slackblock2,slacktext,slackinfo)
+      know(slack,slacktext,slackinfo,github,githubblock1,githubblock2,githubtext,githubinfo,insta,instablock1,instablock2,instatext,instainfo)
 
       const timeout = setTimeout(()=>{
         let images = document.getElementsByClassName("appear")
@@ -160,22 +239,33 @@ export default function Contact(){
           </div>
         </div>
         <div className="flex jusify-center items-center gap-25">
-        <div className="mt-20 appear opacity-0">
+        <div className="mt-20 appear opacity-0 flex justify-center items-center">
+          <div>
           <Image src="/pic1.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img1"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position1"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop1"></div>
+          </div>
+          <span className="text-6xl text-white hover-text absolute zimg" id="instatext1">Instagram</span>
+          <span className="text-6xl text-white absolute zimg left-200 opacity-0" id="instatext2">@rehan_thareja</span>
         </div>
-        <div className="mt-20 appear opacity-0">
+        <div className="mt-20 appear opacity-0 flex justify-center items-center">
+          <div>            
           <Image src="/WhatsApp Image 2026-05-25 at 03.26.15.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img2"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position2"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop2"></div>
+          </div>
+          <span className="text-6xl text-white hover-text absolute zimg" id="githubtext1">Github</span>
+          <span className="text-4xl text-white absolute zimg left-250 opacity-0" id="githubtext2">tharejarehan0-a11y</span>
         </div>
-        <div className="mt-20 appear opacity-0">
+        <div className="mt-20 appear opacity-0 flex justify-center items-center">
+          <div className="flex justify-center items-center">
           <Image src="/amritsar1.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img3"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position3"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop3"></div>
+          </div>
+          <span className="text-6xl text-white hover-text absolute zimg" id="slacktext1">Slack</span>
+          <span className="text-6xl text-white absolute zimg right-200 opacity-0" id="slacktext2">@Rehan</span>
         </div>
-
         </div>
      </div>
     </>
