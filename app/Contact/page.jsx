@@ -232,7 +232,7 @@ export default function Contact(){
         <div className="bg-white border-black border-2 w-20 h-20"id="54"></div>
 
       </div>
-      <div className="bg-black flex-col flex justify-start items-center text-white white-to-black" style={{height:"300vh"}}>
+      <div className="bg-black flex-col flex justify-start items-center text-white white-to-black" style={{height:"200vh"}}>
         <div className="block w-500">
         <div className="flex justify-center items-center text-8xl hover-text pt-9 pb-9 appear opacity-0">
           Hover below to know
@@ -241,16 +241,16 @@ export default function Contact(){
         <div className="flex jusify-center items-center gap-25">
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div>
-          <Image src="/pic1.jpeg"  alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img1"/>
+          <Image src="/pic1.jpeg" width="200" height="200" alt="pic" loading="eager" className="rounded-4xl zimg relative" id="img1"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position1"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop1"></div>
           </div>
           <span className="text-6xl text-white hover-text absolute zimg" id="instatext1">Instagram</span>
-          <span className="text-6xl text-white absolute zimg left-200 opacity-0" id="instatext2">@rehan_thareja</span>
+          <span className="text-6xl text-white  absolute zimg left-200 opacity-0" id="instatext2">@rehan_thareja</span>
         </div>
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div>            
-          <Image src="/WhatsApp Image 2026-05-25 at 03.26.15.jpeg"  alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img2"/>
+          <Image src="/WhatsApp Image 2026-05-25 at 03.26.15.jpeg" width="200" height="200" alt="pic" loading="eager" className="rounded-4xl zimg relative" id="img2"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position2"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop2"></div>
           </div>
@@ -259,7 +259,7 @@ export default function Contact(){
         </div>
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div className="flex justify-center items-center">
-          <Image src="/amritsar1.jpeg" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img3"/>
+          <Image src="/amritsar1.jpeg" width="200" height="200" alt="pic" loading="eager" className="rounded-4xl zimg relative" id="img3"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position3"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop3"></div>
           </div>
