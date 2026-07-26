@@ -241,7 +241,7 @@ export default function Contact(){
         <div className="flex jusify-center items-center gap-25">
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div>
-          <Image src="/pic1.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img1"/>
+          <Image src="/pic1.jpeg"  alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img1"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position1"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop1"></div>
           </div>
@@ -250,7 +250,7 @@ export default function Contact(){
         </div>
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div>            
-          <Image src="/WhatsApp Image 2026-05-25 at 03.26.15.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img2"/>
+          <Image src="/WhatsApp Image 2026-05-25 at 03.26.15.jpeg"  alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img2"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position2"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop2"></div>
           </div>
@@ -259,7 +259,7 @@ export default function Contact(){
         </div>
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div className="flex justify-center items-center">
-          <Image src="/amritsar1.jpeg" width="300" height="300" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img3"/>
+          <Image src="/amritsar1.jpeg" alt="pic" loading="eager" className="rounded-4xl w-auto h-auto zimg relative" id="img3"/>
           <div className="bg-white rounded-3xl w-70 h-100 position" id="position3"></div>
           <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop3"></div>
           </div>
