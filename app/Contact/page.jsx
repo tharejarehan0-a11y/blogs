@@ -242,8 +242,8 @@ export default function Contact(){
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div>
           <Image src="/pic1.jpeg" width="200" height="200" alt="pic" loading="eager" className="rounded-4xl zimg relative" id="img1"/>
-          <div className="bg-white rounded-3xl w-70 h-100 position" id="position1"></div>
-          <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop1"></div>
+          <div className="bg-white rounded-3xl w-70 h-90 position mt-5" id="position1"></div>
+          <div className="bg-white rounded-3xl w-70 h-90 position-opposite mt-5" id="positionop1"></div>
           </div>
           <span className="text-6xl text-white hover-text absolute zimg" id="instatext1">Instagram</span>
           <span className="text-6xl text-white  absolute zimg left-200 opacity-0" id="instatext2">@rehan_thareja</span>
@@ -251,8 +251,8 @@ export default function Contact(){
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div>            
           <Image src="/WhatsApp Image 2026-05-25 at 03.26.15.jpeg" width="200" height="200" alt="pic" loading="eager" className="rounded-4xl zimg relative" id="img2"/>
-          <div className="bg-white rounded-3xl w-70 h-100 position" id="position2"></div>
-          <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop2"></div>
+          <div className="bg-white rounded-3xl w-70 h-90 position mt-5" id="position2"></div>
+          <div className="bg-white rounded-3xl w-70 h-90 position-opposite mt-5" id="positionop2"></div>
           </div>
           <span className="text-6xl text-white hover-text absolute zimg" id="githubtext1">Github</span>
           <span className="text-4xl text-white absolute zimg left-250 opacity-0" id="githubtext2">tharejarehan0-a11y</span>
@@ -260,8 +260,8 @@ export default function Contact(){
         <div className="mt-20 appear opacity-0 flex justify-center items-center">
           <div className="flex justify-center items-center">
           <Image src="/amritsar1.jpeg" width="200" height="200" alt="pic" loading="eager" className="rounded-4xl zimg relative" id="img3"/>
-          <div className="bg-white rounded-3xl w-70 h-100 position" id="position3"></div>
-          <div className="bg-white rounded-3xl w-70 h-100 position-opposite" id="positionop3"></div>
+          <div className="bg-white rounded-3xl w-70 h-90 position mt-5" id="position3"></div>
+          <div className="bg-white rounded-3xl w-70 h-90 position-opposite mt-5" id="positionop3"></div>
           </div>
           <span className="text-6xl text-white hover-text absolute zimg" id="slacktext1">Slack</span>
           <span className="text-6xl text-white absolute zimg right-200 opacity-0" id="slacktext2">@Rehan</span>
